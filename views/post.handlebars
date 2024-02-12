@@ -1,0 +1,19 @@
+<div class="post">
+    <h2>{{title}}</h2>
+    <p>{{content}}</p>
+    <p>Posted by {{user.username}} on {{createdAt}}</p>
+    {{#if logged_in}}
+        <div class="comment-form">
+            <textarea id="comment-body"></textarea>
+            <button id="submit-comment">Submit Comment</button>
+        </div>
+    {{/if}}
+    <div class="comments">
+        {{#each comments}}
+            <div class="comment">
+                <p>{{this.content}}</p>
+                <p>Comment by {{this.user.username}} on {{this.createdAt}}</p>
+            </div>
+        {{/each}}
+    </div>
+</div>
