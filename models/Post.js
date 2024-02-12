@@ -1,9 +1,9 @@
 const { Model, DataTypes } = require('sequelize');
-const sequalize = require('../config/connection');
+const sequelize = require('../config/connection');
 
 class Post extends Model {}
 
-Model.Init (
+Post.init (
     {
         id: {
             type: DataTypes.INTEGER,
@@ -19,7 +19,7 @@ Model.Init (
             type: DataTypes.STRING,
             allowNull: false,
         },
-        userId: {
+        user_id: {
             type: DataTypes.INTEGER,
             references: {
                 model: 'user',
@@ -27,18 +27,18 @@ Model.Init (
             },
         },
         createdAt: {
-            type: DataTypes.DATETIME,
+            type: DataTypes.DATE,
             allowNull: false,
         },
         updatdAt: {
-            type: DataTypes.DATETIME,
+            type: DataTypes.DATE,
             allowNull: false,
         }
     },
     {
-        sequalize,
+        sequelize,
         timestamp: true,
-        freezeTable: true,
+        freezeTableName: true,
         underscored: true,
         modelName: 'post',
 
