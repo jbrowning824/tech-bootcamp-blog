@@ -30,7 +30,7 @@ Post.init (
             type: DataTypes.DATE,
             allowNull: false,
         },
-        updatdAt: {
+        updatedAt: {
             type: DataTypes.DATE,
             allowNull: false,
         }

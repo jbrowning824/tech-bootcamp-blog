@@ -1,0 +1,122 @@
+[
+    {
+      "id": 1,
+      "title": "Post 1 by Sal",
+      "content": "This is post 1 created by Sal.",
+      "user_id": 1,
+      "createdAt": "2024-02-12 19:45:00",
+      "updatedAt": "2024-02-12 19:45:00"
+    },
+    {
+      "id": 2,
+      "title": "Post 2 by Sal",
+      "content": "This is post 2 created by Sal.",
+      "user_id": 1,
+      "createdAt": "2024-02-12 19:45:00",
+      "updatedAt": "2024-02-12 19:45:00"
+    },
+    {
+      "id": 3,
+      "title": "Post 3 by Sal",
+      "content": "This is post 3 created by Sal.",
+      "user_id": 1,
+      "createdAt": "2024-02-12 19:45:00",
+      "updatedAt": "2024-02-12 19:45:00"
+    },
+    {
+      "id": 4,
+      "title": "Post 4 by Jordan",
+      "content": "This is post 4 created by Jordan.",
+      "user_id": 2,
+      "createdAt": "2024-02-12 19:45:00",
+      "updatedAt": "2024-02-12 19:45:00"
+    },
+    {
+      "id": 5,
+      "title": "Post 5 by Jordan",
+      "content": "This is post 5 created by Jordan.",
+      "user_id": 2,
+      "createdAt": "2024-02-12 19:45:00",
+      "updatedAt": "2024-02-12 19:45:00"
+    },
+    {
+      "id": 6,
+      "title": "Post 6 by Jordan",
+      "content": "This is post 6 created by Jordan.",
+      "user_id": 2,
+      "createdAt": "2024-02-12 19:45:00",
+      "updatedAt": "2024-02-12 19:45:00"
+    },
+    {
+      "id": 7,
+      "title": "Post 7 by Amiko",
+      "content": "This is post 7 created by Amiko.",
+      "user_id": 3,
+      "createdAt": "2024-02-12 19:45:00",
+      "updatedAt": "2024-02-12 19:45:00"
+    },
+    {
+      "id": 8,
+      "title": "Post 8 by Amiko",
+      "content": "This is post 8 created by Amiko.",
+      "user_id": 3,
+      "createdAt": "2024-02-12 19:45:00",
+      "updatedAt": "2024-02-12 19:45:00"
+    },
+    {
+      "id": 9,
+      "title": "Post 9 by Amiko",
+      "content": "This is post 9 created by Amiko.",
+      "user_id": 3,
+      "createdAt": "2024-02-12 19:45:00",
+      "updatedAt": "2024-02-12 19:45:00"
+    },
+    {
+      "id": 10,
+      "title": "Post 10 by Lernantino",
+      "content": "This is post 10 created by Lernantino.",
+      "user_id": 4,
+      "createdAt": "2024-02-12 19:45:00",
+      "updatedAt": "2024-02-12 19:45:00"
+    },
+    {
+      "id": 11,
+      "title": "Post 11 by Lernantino",
+      "content": "This is post 11 created by Lernantino.",
+      "user_id": 4,
+      "createdAt": "2024-02-12 19:45:00",
+      "updatedAt": "2024-02-12 19:45:00"
+    },
+    {
+      "id": 12,
+      "title": "Post 12 by Lernantino",
+      "content": "This is post 12 created by Lernantino.",
+      "user_id": 4,
+      "createdAt": "2024-02-12 19:45:00",
+      "updatedAt": "2024-02-12 19:45:00"
+    },
+    {
+      "id": 13,
+      "title": "Post 13 by Blake",
+      "content": "This is post 13 created by Blake.",
+      "user_id": 5,
+      "createdAt": "2024-02-12 19:45:00",
+      "updatedAt": "2024-02-12 19:45:00"
+    },
+    {
+      "id": 14,
+      "title": "Post 14 by Blake",
+      "content": "This is post 14 created by Blake.",
+      "user_id": 5,
+      "createdAt": "2024-02-12 19:45:00",
+      "updatedAt": "2024-02-12 19:45:00"
+    },
+    {
+      "id": 15,
+      "title": "Post 15 by Blake",
+      "content": "This is post 15 created by Blake.",
+      "user_id": 5,
+      "createdAt": "2024-02-12 19:45:00",
+      "updatedAt": "2024-02-12 19:45:00"
+    }
+  ]

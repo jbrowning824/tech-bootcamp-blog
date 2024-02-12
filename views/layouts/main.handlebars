@@ -3,28 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tech Blog</title>
+    <title>Blog Site</title>
+    <!-- Add your stylesheet links here -->
     <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
     <header>
+        <!-- Navigation bar -->
         <nav>
             <a href="/">Home</a>
-            {{#if logged_in}}
+            {{#if loggedIn}}
                 <a href="/dashboard">Dashboard</a>
-                <a href="#" id="logout">Logout</a>
+                <a href="/logout">Logout</a>
             {{else}}
                 <a href="/login">Login</a>
-                <a href="/signup">Signup</a>
+                <a href="/signup">Sign Up</a>
             {{/if}}
         </nav>
     </header>
+    
     <main>
+        <!-- This is where the body of your page's content will go -->
         {{{body}}}
     </main>
+    
     <footer>
-        <p>Tech Blog ©</p>
+        <p>© 2024 Blog Site. All rights reserved.</p>
     </footer>
-    <script src="/js/logout.js"></script>
+
+    <!-- Add your script tags here -->
+    <script src="/js/script.js"></script>
 </body>
 </html>

@@ -1,4 +1,9 @@
-<section class="container">
- testing blogs
-  </section>
-</section>
+<main>
+  {{#each posts as |post|}}
+    <article>
+      <h2>{{post.title}}</h2>
+      <p>{{post.summary}}</p>
+      <!-- Link to full post -->
+    </article>
+  {{/each}}
+</main>
